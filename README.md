@@ -12,3 +12,5 @@ R- Response; note your intial response to the card
 E- Emotion; How does this card make me feel?
 A- Action; what does the card want me to do? What are the figures in the card doing?
 D- Details; symbols, color, numerology, animals
+
+First is going to be a READ style journal for all the cards, then we can implement some calendar aspect and analytics. 
