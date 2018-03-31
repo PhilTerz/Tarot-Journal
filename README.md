@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -2432,3 +2433,21 @@ In the future, we might start automatically compiling incompatible third-party m
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+=======
+# Tarot-Journal
+A yearly journal for exploring the tarot
+
+Features discussed:
+  1. Calendar ability to view day and card drawn
+  2. Analytics to see how often a card, suit, etc. were picked -- any way to connect this to the notes for the day as well?
+  3. A journal aspect for each seperate card to write down intuitions and related art, culture, and emotions
+  4. Can we include pictures of the card? Need to search for an API that has most of the deck's pictures perhaps, or include an upload feature
+
+implement a R.E.A.D. structure:
+R- Response; note your intial response to the card
+E- Emotion; How does this card make me feel?
+A- Action; what does the card want me to do? What are the figures in the card doing?
+D- Details; symbols, color, numerology, animals
+
+First is going to be a READ style journal for all the cards, then we can implement some calendar aspect and analytics. 
+>>>>>>> 01cd6dbdf0216e86017c7d3689231f94716d24de
