@@ -1,0 +1,202 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #e1eef6;
+  font-family: monospace;
+  font-size: 20px;
+  min-height: 100%;
+}
+
+.container {
+  height: 100%;
+  min-width: 500px;
+}
+
+.header {
+  text-align: center;
+}
+
+.menuContainer {
+  display: inline-block;
+}
+
+.menu ul {
+  list-style: none;
+  width: auto;
+  display: inline-flex;
+  padding-left: 0px;
+}
+
+.menu li {
+  color: #004e66;
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid #004e66;
+  border-radius: 5px;
+}
+/*#ff5f2e*/
+.menu li:hover {
+  background-color: #d9e1e8;
+  cursor: pointer;
+}
+
+.pageListContainer {
+  display: inline-block;
+  color: #004e66;
+  margin-left: 10px;
+  padding: 9px;
+  border: 1px solid #004e66;
+  border-radius: 5px;
+}
+
+.pageList form {
+  margin-left: 10px;
+}
+
+.pageList select {
+  background: transparent;
+  color: #004e66;
+  font-size: 20px;
+  border: none;
+  width: 120px;
+  font-family: inherit;
+  font-weight: 600;
+  margin-left: 8px;
+  padding: 5px 0px;
+}
+
+.nopage {
+  padding: 10px;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 25px;
+}
+
+.pageTitle p {
+  margin: 0px;
+}
+
+.pageTitleDisplay:hover {
+  display: inline-block;
+  padding: 0px 15px;
+  background-color: #e0e0e0;
+}
+
+.pageTitleEdit input {
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+  text-align: center;
+}
+
+.textNoteEditContainer {
+  position: absolute;
+}
+
+.textNoteEdit {
+  font-size: 15px;
+  width: 200px;
+  padding: 10px;
+  position: relative;
+  background-color: white;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.textNoteEdit p {
+  margin-top: 0px;
+}
+
+.textNoteEdit textarea {
+  width: 100%;
+  height: 75%;
+  -webkit-user-drag: none;
+}
+
+.textNoteEdit:hover {
+  cursor: grabbing;
+}
+
+.textNoteEditContainer .colorPicker {
+  float: right;
+  margin-top: -32px;
+}
+
+.textNoteDisplay {
+  font-size: 15px;
+  width: 500px;
+  padding: 10px;
+  position: absolute;
+  background-color: white;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.textNoteDisplay span {
+  opacity: 0;
+  display: block;
+}
+
+.textNoteDisplay span:hover {
+  opacity: 1;
+  cursor: -webkit-grabbing;
+}
+
+.imageNoteEdit {
+  width: 200px;
+  padding: 10px;
+  position: absolute;
+  background-color: white;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
+  -webkit-user-drag: none;
+}
+
+.imageNoteEdit .url {
+  font-weight: 200;
+  margin: 0px;
+  cursor: -webkit-grabbing;
+}
+
+.imageNoteDisplay {
+  position: absolute;
+  background-color: white;
+  display: block;
+  height: 150px;
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imageNoteDisplay .image-edit {
+  opacity: 0;
+  margin-top: -35px;
+  display: block;
+}
+
+.imageNoteDisplay:hover .image-edit {
+  padding-left: 10px;
+  opacity: 1;
+}
+
+.imageNoteDisplay strong {
+  height: 150px;
+  display: block;
+}
+
+.imageNoteDisplay .drag-bar {
+  opacity: 1;
+  font-weight: 400;
+  height: 13px;
+  background: white;
+  cursor: -webkit-grabbing;
+}
+
+.nonDraggableImage {
+  padding: 0px;
+  margin: 0px;
+  -webkit-user-drag: none;
+}
+
+.textInput {
+  width: 100%;
+}
