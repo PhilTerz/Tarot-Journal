@@ -6,3 +6,4 @@ TODO:
 adding local storage,
 resizing text boxes persistence,
 accessibility 
+check firebase
